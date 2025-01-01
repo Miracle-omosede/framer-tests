@@ -1,9 +1,11 @@
-import Header from "../components/Header"
+import Header from "../components/01"
+import Presence from "../components/02-presence"
 
 const Home = () => {
   return (
     <div>
-        <Header/>
+        {/* <Header/> */}
+        <Presence/>
     </div>
   )
 }
